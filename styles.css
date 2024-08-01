@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f8b400;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 1em;
+}
+
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+h1,h2 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.welcome-section, .about-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax, .parallax2 {
+    position: relative;
+    height: 300px;
+    background: #000;
+    overflow: hidden;
+}
+
+.parallax img {
+    width: 100%;
+    height: auto;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+}
+.parallax2 img {
+    width: 100%;
+    height: 550px;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+}
+
+tr img {
+    width: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: left;
+}
+
+th {
+    background-color: #f8b400;
+    color: white;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
